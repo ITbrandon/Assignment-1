@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #3498db;
+            background-color: rebeccapurple;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -22,6 +22,10 @@
 
         section {
             padding: 2em;
+        }
+
+        main {
+          margin-left: 2rem;
         }
 
         footer {
@@ -44,7 +48,18 @@
         <h2>Welcome to our website!</h2>
         <p>This is a modern business theme with a clean and professional design.</p>
     </section>
-
+    <main>
+      <form action="/submit-form" method="post">
+        <label for="Fruits">Select your favorite fruit:</label>
+        <select name="FavoriteFruit" id="Fruits">
+          <option value="apple">Apple</option>
+          <option value="orange">Orange</option>
+          <option value="banana">Banana</option>
+          <option value="grapes">Grapes</option>
+        </select>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
     <footer>
         &copy; 2024 Your Company
     </footer>
