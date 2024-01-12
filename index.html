@@ -50,28 +50,32 @@
     </section>
     <main>
 
+      <p>I want to send you some Nachos so fill out the form</p>
 
-      <p>Pop Quiz</p>
-      <p>
-        <details>
-        <summary>What is Micheal Jordans career high in points</summary>
-        <p>69</p>
-      </details>
-    </p>
+      <form action="/submit-form" method="post">
+        <p>
+          <label for="streetAddress">Street Address:</label>
+        <input type="text" id="streetAddress" name="streetAddress" required></input>
+        </p>
+        
       
-    <p>
-      <details>
-        <summary>How many Super bowls has Tom Brady Played in</summary>
-        <p>10</p>
-      </details>
-    </p>
+        <p>
+          <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        </p>
       
-    <p>
-      <details>
-        <summary>Has Floyd Mayweather ever lost a fight</summary>
-        <p>No</p>
-      </details>
-    </p>
+        <p>
+          <label for="zipCode">Postal Code:</label>
+        <input type="text" id="zipCode" name="zipCode" required>
+        </p>
+
+        <p>
+          <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+        </p>
+      
+        <input type="submit" value="Submit">
+      </form>
       
     </main>
     <footer>
